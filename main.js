@@ -1,18 +1,24 @@
 import { Cliente }  from './assets/classes/Clientes.js'
 import { Impuestos } from './assets/classes/Impuestos.js'
 
-let impuestos1 = new Impuestos(500000,10000)
+let outputColor = "color:green; font-size:18px;"
 
+let impuestos1 = new Impuestos(500000,10000)
 let cliente1 = new Cliente('Victor',impuestos1)
 
 console.clear()
+
+console.log("%c Datos Originales" ,outputColor)
 console.log(`Nombre : ${cliente1.nombre} ,Total Impuesto : ${cliente1.calcularImpuesto()}`)
+
+console.log("%c Modificacion del Monto Anual",outputColor)
 impuestos1.montoAnual = 600000
 console.log(`Nombre : ${cliente1.nombre} ,Total Impuesto Nuevo: ${cliente1.calcularImpuesto()}`)
-console.log('')
-cliente1.nombre = "Juanito"
-console.log(`Nombre : ${cliente1.nombre} ,Total Impuesto : ${cliente1.calcularImpuesto()}`)
+
+console.log("%c Cambio del nombre del Cliente",outputColor)
+cliente1.nombre="Juan"
 console.log(`Nombre : ${cliente1.nombre} ,Total Impuesto Nuevo: ${cliente1.calcularImpuesto()}`)
+
 
 
 ///// LINEA DE COMANDO PARA TRANSPILAR DE ES6 A ES5 ////

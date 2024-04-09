@@ -1,0 +1,21 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    h1{
+        text-decoration: underline;
+    }
+
+    img{
+        width: 100%;
+    }
+
+    .parrafo{
+        font-size: 20px;
+        font-weight: 800;
+        text-decoration: underline;
+
+    }
+}
