@@ -14,4 +14,7 @@
 ![resultado](https://raw.githubusercontent.com/VictorTapiaEgana/desafioevaluadoclasses/master/assets/img/Transpilado_main.png)
 
 
+- Resultad visto por consola 
+![resultado](https://raw.githubusercontent.com/VictorTapiaEgana/desafioevaluadoclasses/master/assets/img/resultado.png)
+
 
